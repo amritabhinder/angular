@@ -38,7 +38,7 @@ export class ProductService {
       name: 'USB-C Hub',
       description: '7-in-1 multiport adapter with HDMI and SD card reader',
       price: 34.99,
-      imageUrl: 'https://images.unsplash.com/photo-1625723044790-3b5c3e5c8b7a?w=400&h=300&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Electronics'
     },
@@ -74,7 +74,7 @@ export class ProductService {
       name: 'LED Desk Lamp',
       description: 'Adjustable touch lamp with 3 brightness levels and USB port',
       price: 39.99,
-      imageUrl: 'https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=400&h=300&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Home'
     },
@@ -101,7 +101,7 @@ export class ProductService {
       name: 'Pruning Shears',
       description: 'Sharp stainless steel bypass pruning shears with ergonomic grip',
       price: 19.99,
-      imageUrl: 'https://images.unsplash.com/photo-1592982537447-6f2a6a3c7a3b?w=400&h=300&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Garden'
     },
@@ -110,7 +110,7 @@ export class ProductService {
       name: 'Garden Hose',
       description: '50ft expandable garden hose with spray nozzle',
       price: 44.99,
-      imageUrl: 'https://images.unsplash.com/photo-1589923188900-85aefc3a10d3?w=400&h=300&fit=crop',
+      imageUrl: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=400&h=300&fit=crop',
       inStock: false,
       category: 'Garden'
     },
