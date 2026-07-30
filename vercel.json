@@ -1,0 +1,8 @@
+{
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/amrita-store",
+  "framework": "angular",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

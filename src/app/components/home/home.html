@@ -1,0 +1,8 @@
+<app-sidebar
+  [categories]="categories()"
+  [selectedCategory]="selectedCategory()"
+  (categoryChange)="onCategoryChange($event)"
+/>
+<main class="main-content">
+  <app-product-grid [products]="filteredProducts()" />
+</main>

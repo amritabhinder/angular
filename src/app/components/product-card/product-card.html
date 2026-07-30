@@ -1,0 +1,15 @@
+<div class="product-card">
+  <div class="card-image">
+    <img [src]="product().imageUrl" [alt]="product().name" loading="lazy" />
+    <span class="stock-badge" [class.in-stock]="product().inStock" [class.out-of-stock]="!product().inStock">
+      {{ product().inStock ? 'In Stock' : 'Out of Stock' }}
+    </span>
+  </div>
+  <div class="card-body">
+    <h3 class="product-name">{{ product().name }}</h3>
+    <p class="product-description">{{ product().description }}</p>
+    <div class="card-footer">
+      <span class="product-price">${{ product().price.toFixed(2) }}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<aside class="sidebar">
+  <h3 class="sidebar-title">Categories</h3>
+  <ul class="category-list">
+    <li>
+      <button
+        class="category-item"
+        [class.active]="selectedCategory() === 'all'"
+        (click)="selectCategory('all')"
+      >
+        All Products
+      </button>
+    </li>
+    @for (cat of categories(); track cat) {
+      <li>
+        <button
+          class="category-item"
+          [class.active]="selectedCategory() === cat"
+          (click)="selectCategory(cat)"
+        >
+          {{ cat }}
+        </button>
+      </li>
+    }
+  </ul>
+</aside>

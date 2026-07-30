@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="header-content">
+    <a routerLink="/" class="store-name">Amrita's Store</a>
+    <div class="search-box">
+      <input
+        type="text"
+        placeholder="Search products..."
+        [ngModel]="searchState.searchTerm()"
+        (ngModelChange)="searchState.searchTerm.set($event)"
+      />
+      <span class="search-icon">&#128269;</span>
+    </div>
+    <a routerLink="/cart" class="cart-btn">
+      <span class="cart-icon">&#128722;</span>
+      Cart
+    </a>
+  </div>
+</header>
