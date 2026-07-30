@@ -38,7 +38,7 @@ export class ProductService {
       name: 'USB-C Hub',
       description: '7-in-1 multiport adapter with HDMI and SD card reader',
       price: 34.99,
-      imageUrl: 'https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?w=400&h=300&fit=crop',
+      imageUrl: '/img/usb-1.jpg',
       inStock: true,
       category: 'Electronics'
     },

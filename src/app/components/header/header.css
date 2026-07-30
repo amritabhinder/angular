@@ -30,6 +30,34 @@
   color: #3498db;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.home-link:hover {
+  color: #3498db;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    gap: 0.75rem;
+  }
+  .home-link {
+    font-size: 0.85rem;
+  }
+}
+
 .search-box {
   flex: 1;
   max-width: 500px;
