@@ -11,7 +11,7 @@ export class ProductService {
       name: 'Wireless Headphones',
       description: 'Noise-cancelling wireless headphones with 30-hour battery life',
       price: 79.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Wireless+Headphones',
+      imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Electronics'
     },
@@ -20,7 +20,7 @@ export class ProductService {
       name: 'Smart Watch',
       description: 'Fitness tracker with heart rate monitor and GPS',
       price: 199.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Smart+Watch',
+      imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Electronics'
     },
@@ -29,7 +29,7 @@ export class ProductService {
       name: 'Bluetooth Speaker',
       description: 'Portable waterproof speaker with deep bass',
       price: 49.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Bluetooth+Speaker',
+      imageUrl: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop',
       inStock: false,
       category: 'Electronics'
     },
@@ -38,7 +38,7 @@ export class ProductService {
       name: 'USB-C Hub',
       description: '7-in-1 multiport adapter with HDMI and SD card reader',
       price: 34.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=USB-C+Hub',
+      imageUrl: 'https://images.unsplash.com/photo-1625723044790-3b5c3e5c8b7a?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Electronics'
     },
@@ -47,7 +47,7 @@ export class ProductService {
       name: 'Cotton T-Shirt',
       description: 'Premium 100% organic cotton crew neck tee',
       price: 24.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Cotton+T-Shirt',
+      imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Clothing'
     },
@@ -56,7 +56,7 @@ export class ProductService {
       name: 'Denim Jacket',
       description: 'Classic denim jacket with button front and chest pockets',
       price: 89.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Denim+Jacket',
+      imageUrl: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Clothing'
     },
@@ -65,7 +65,7 @@ export class ProductService {
       name: 'Running Shoes',
       description: 'Lightweight mesh sneakers with cushioned sole',
       price: 119.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Running+Shoes',
+      imageUrl: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop',
       inStock: false,
       category: 'Clothing'
     },
@@ -74,7 +74,7 @@ export class ProductService {
       name: 'LED Desk Lamp',
       description: 'Adjustable touch lamp with 3 brightness levels and USB port',
       price: 39.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=LED+Desk+Lamp',
+      imageUrl: 'https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Home'
     },
@@ -83,7 +83,7 @@ export class ProductService {
       name: 'Throw Pillow Set',
       description: 'Set of 2 decorative linen pillows with hidden zipper',
       price: 29.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Throw+Pillow+Set',
+      imageUrl: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Home'
     },
@@ -92,7 +92,7 @@ export class ProductService {
       name: 'Coffee Maker',
       description: '12-cup programmable drip coffee maker with thermal carafe',
       price: 64.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Coffee+Maker',
+      imageUrl: 'https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Home'
     },
@@ -101,7 +101,7 @@ export class ProductService {
       name: 'Pruning Shears',
       description: 'Sharp stainless steel bypass pruning shears with ergonomic grip',
       price: 19.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Pruning+Shears',
+      imageUrl: 'https://images.unsplash.com/photo-1592982537447-6f2a6a3c7a3b?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Garden'
     },
@@ -110,7 +110,7 @@ export class ProductService {
       name: 'Garden Hose',
       description: '50ft expandable garden hose with spray nozzle',
       price: 44.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Garden+Hose',
+      imageUrl: 'https://images.unsplash.com/photo-1589923188900-85aefc3a10d3?w=400&h=300&fit=crop',
       inStock: false,
       category: 'Garden'
     },
@@ -119,7 +119,7 @@ export class ProductService {
       name: 'Yoga Mat',
       description: 'Non-slip premium yoga mat with carrying strap',
       price: 32.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Yoga+Mat',
+      imageUrl: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Sports'
     },
@@ -128,7 +128,7 @@ export class ProductService {
       name: 'Resistance Bands Set',
       description: 'Set of 5 resistance bands with door anchor and carrying bag',
       price: 22.99,
-      imageUrl: 'https://via.placeholder.com/300x200?text=Resistance+Bands',
+      imageUrl: 'https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400&h=300&fit=crop',
       inStock: true,
       category: 'Sports'
     }
