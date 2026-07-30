@@ -11,7 +11,7 @@ import { ProductGrid } from '../product-grid/product-grid';
   styleUrl: './home.css',
 })
 export class Home {
-  private productService = new ProductService();
+  private readonly productService = inject(ProductService);
   protected readonly searchState = inject(SearchState);
 
   protected readonly categories = signal<string[]>(this.productService.getCategories());

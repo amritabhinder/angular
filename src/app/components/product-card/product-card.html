@@ -1,15 +1,24 @@
 <div class="product-card">
-  <div class="card-image">
-    <img [src]="product().imageUrl" [alt]="product().name" loading="lazy" />
-    <span class="stock-badge" [class.in-stock]="product().inStock" [class.out-of-stock]="!product().inStock">
-      {{ product().inStock ? 'In Stock' : 'Out of Stock' }}
-    </span>
-  </div>
-  <div class="card-body">
-    <h3 class="product-name">{{ product().name }}</h3>
-    <p class="product-description">{{ product().description }}</p>
-    <div class="card-footer">
-      <span class="product-price">${{ product().price.toFixed(2) }}</span>
+  <a [routerLink]="['/product', product().id]" class="card-link">
+    <div class="card-image">
+      <img [src]="product().imageUrl" [alt]="product().name" loading="lazy" />
+      <span class="stock-badge" [class.in-stock]="product().inStock" [class.out-of-stock]="!product().inStock">
+        {{ product().inStock ? 'In Stock' : 'Out of Stock' }}
+      </span>
     </div>
-  </div>
+    <div class="card-body">
+      <h3 class="product-name">{{ product().name }}</h3>
+      <p class="product-description">{{ product().description }}</p>
+      <div class="card-footer">
+        <span class="product-price">${{ product().price.toFixed(2) }}</span>
+      </div>
+    </div>
+  </a>
+  <button
+    class="add-to-cart-btn"
+    [disabled]="!product().inStock"
+    (click)="addToCart()"
+  >
+    {{ product().inStock ? 'Add to Cart' : 'Out of Stock' }}
+  </button>
 </div>

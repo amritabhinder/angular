@@ -7,3 +7,8 @@ export interface Product {
   inStock: boolean;
   category: string;
 }
+
+export interface CartItem {
+  product: Product;
+  quantity: number;
+}

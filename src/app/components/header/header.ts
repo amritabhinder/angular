@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { CartService } from '../../services/cart';
 import { SearchState } from '../../services/search-state';
 
 @Component({
@@ -11,4 +12,5 @@ import { SearchState } from '../../services/search-state';
 })
 export class Header {
   protected readonly searchState = inject(SearchState);
+  protected readonly cartService = inject(CartService);
 }

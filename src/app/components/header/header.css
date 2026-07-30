@@ -78,6 +78,18 @@
   font-size: 1.2rem;
 }
 
+.cart-badge {
+  background: #e74c3c;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.2;
+}
+
 @media (max-width: 600px) {
   .store-name {
     font-size: 1.1rem;

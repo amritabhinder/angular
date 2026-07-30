@@ -13,6 +13,14 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .card-image {
   position: relative;
   width: 100%;
@@ -81,4 +89,26 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: #27ae60;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  background: #3498db;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+.add-to-cart-btn:hover:not(:disabled) {
+  background: #2980b9;
+}
+
+.add-to-cart-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
 }

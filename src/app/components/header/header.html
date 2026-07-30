@@ -13,6 +13,9 @@
     <a routerLink="/cart" class="cart-btn">
       <span class="cart-icon">&#128722;</span>
       Cart
+      @if (cartService.totalItems() > 0) {
+        <span class="cart-badge">{{ cartService.totalItems() }}</span>
+      }
     </a>
   </div>
 </header>

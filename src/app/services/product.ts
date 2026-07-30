@@ -148,6 +148,10 @@ export class ProductService {
     return this.products.filter(p => p.category === category);
   }
 
+  getProductById(id: string): Product | undefined {
+    return this.products.find(p => p.id === id);
+  }
+
   searchProducts(term: string): Product[] {
     if (!term || term.trim() === '') return this.products;
     const lower = term.toLowerCase();
